@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Binary Search</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #array { display: flex; gap: 6px; margin: 20px 0; }
+    .cell { width: 45px; height: 45px; border: 2px solid black;
+            display: flex; align-items: center; justify-content: center; }
+    .out { background: lightgray; color: gray; }
+    .mid { background: gold; }
+    .found { background: lightgreen; }
+  </style>
+</head>
+<body>
+  <h1>Binary Search</h1>
+
+  Find number: <input id="target" type="number" value="47" onchange="reset()">
+  <button onclick="nextStep()">Next step</button>
+  <button onclick="reset()">Reset</button>
+
+  <div id="array"></div>
+  <p id="msg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
