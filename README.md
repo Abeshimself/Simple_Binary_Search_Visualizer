@@ -1,4 +1,4 @@
-# Binary Search Visualizer
+# Simple Binary Search Visualizer
 
 A simple web page that shows how the binary search algorithm works, one step at a time.
 
